@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: say hello
         run: |
-          "echo Hello World!!!"
+          echo "Hello World!!!"
   todays_date_is_job:
     runs-on: ubuntu-20.04
     steps:
