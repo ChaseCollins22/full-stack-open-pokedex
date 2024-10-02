@@ -11,6 +11,14 @@ jobs:
     steps:
       - name: say hello
         run: |
-          echo "Hello World!!!"
-          date
-          ls -l
+          "echo "Hello World!!!"
+  todays_date_is_job:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: todays_date_is
+        run: date
+  show_directory_content_job:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: show_directory_content
+        run: ls -l
